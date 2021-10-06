@@ -1,0 +1,165 @@
+body {
+  font-family: 'Roboto';
+  background-color: #fff;
+  color: #11346A !important;
+}
+
+.navbar-a {
+  height: 75px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+}
+
+.text {
+  border-left: 2px solid #e5e5e5;
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+.text p {
+  line-height: 75px;
+}
+
+.menu-link a {
+  color: #11346A !important;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-link a:last-child {
+  cursor: pointer;
+}
+
+.menu-link a:not(:last-child) {
+  margin-top: 22px;
+}
+
+.menu-link a:hover {
+  color: #FFBE00 !important;
+}
+
+.text-content h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.text-content p {
+  font-size: 18px;
+}
+
+.text-content span {
+  font-weight: 700;
+}
+
+.klik-baca {
+  width: 120px;
+  background: #FFBE00;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.klik-baca:hover {
+  width: 120px;
+  background: #005973;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.klik-baca a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-bohim {
+  margin-top: -50px;
+}
+
+.logo-text {
+  border-left: 1px solid #e5e5e5;
+}
+
+.break-place {
+  margin-top: -30px;
+}
+
+.break {
+  border: 2px solid #FFBE00;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.badge-card {
+  border-radius: 0;
+  padding: 8px;
+  color: #87C1FF;
+  background: #EBF5FF;
+  font-size: 0.8em;
+}
+
+.title-berita span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.author {
+  font-size: 12px;
+  color: #AFB0A5;
+}
+
+.link-read a {
+  text-decoration: none;
+  color: #FFBE00;
+  font-size: 12px;
+}
+
+.link-read p {
+  font-size: 12px;
+  color: #AFB0A5;
+}
+
+.klik-lihat {
+  width: 120px;
+  background: #FFBE00;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
+  margin: 35px auto 0 auto;
+  font-size: 12px;
+}
+
+.klik-lihat:hover {
+  width: 120px;
+  background: #005973;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.klik-lihat a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.link-footer a {
+  text-decoration: none;
+  color: #005973;
+}
+/*# sourceMappingURL=style.css.map */
