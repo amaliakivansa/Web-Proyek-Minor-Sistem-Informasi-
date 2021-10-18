@@ -228,6 +228,9 @@ body {
 	}
 	
 }
+.navbar-header .navbar-nav .dropdown a {
+	color: black !important;
+}
 
 
 // Avatar
@@ -414,11 +417,83 @@ body {
 //   Main
 #main {
 	margin-left: 260px;
-	background-color:#E6E9F4;
-	min-height: 100vh;
 	transition: margin-left 0.6s ease-out;
+	
 	margin-top: 48px !important;
+
+	.card-tabs-stack {
+		background-color: #689AA9;
+		
+	}
+
+	div.card-tabs-bar {
+		margin: 100px auto auto auto;
+		background: white;
+	
+	
+		& a.active{
+			background: #689AA9 !important;
+			padding: 10px 20px;
+			border: none !important;
+			border-radius: 10px;
+			font-weight: 500;
+		}
+	
+			
+	}
+	.card-list {
+
+		a:hover {
+			text-decoration: none;
+		}
+	
+		& a .card-panel {
+			margin: 20px auto;
+			padding: 10px;
+			background-color: #005973;
+			width: 100%;
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			
+			
+
+			p{
+				margin-bottom: 0;
+			}
+		   
+		}
+	}
+
+	.card-input {
+		width: 90%;
+		margin : 50px auto;
+		border : 2px solid #005973;
+		border-radius: 10px;
+	}
+
+	.btn-cta {
+		background-color: #005973;
+		color: white;
+		float: right;
+		border-radius: 15px;
+		padding: 5px 20px;
+	}
+
+	.card-materi {
+		width: 95%;
+		padding: 30px;
+		margin: 20px auto;
+	}
   }
+
+//Tabs 
+div.card-tabs-stack div[data-tab] {
+	padding: 10px 0 !important;
+}
+
+
+	
 
   
 

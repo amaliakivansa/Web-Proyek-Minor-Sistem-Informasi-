@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/tabs/css/jquery.cardtabs.css">
+    
+   
 </head>
 <body>
     <div id="app">
@@ -46,11 +49,11 @@
             <img src="assets/images/cimory-logo.png" alt="" srcset="">
         </div> -->
         <div class="sidebar-menu">
-            <ul class="menu">
+            <ul class="menu" >
                 <a class="navbar-brand" href="index.html"><img src="images/logi-himsi-e-learning.png" width="100%" style="margin : -20px auto 20px 10%"></a>
                 <div class="menu-sidebar-item">
 
-                    <li class="sidebar-item">
+                    <li class="sidebar-item active ">
                         <a href="mainpage_mentor.html" class='sidebar-link' style="color: white;">
                             <img src="images/dashboard-icon.png">
                             <span>Home</span>
@@ -58,8 +61,8 @@
                         
                     </li>
 
-                     <li class="sidebar-item active">
-                        <a href="daftar-materi.html" class='sidebar-link'>
+                     <li class="sidebar-item  ">
+                        <a href="daftar_materi_mentor.html" class='sidebar-link'>
                             <img src="images/material-icon.png">
                             <span>Daftar Materi</span>
                         </a>
@@ -67,7 +70,7 @@
                     </li>
 
                      <li class="sidebar-item">
-                       <a href="list-of-materials.html" class='sidebar-link'>
+                       <a href="daftar_tugas_mentor.html" class='sidebar-link'>
                         <img src="images/task-icon.png">
                         <span>Daftar Tugas</span>
                     </a>
@@ -75,7 +78,7 @@
                     </li>
 
                      <li class="sidebar-item">
-                        <a href="stock-bahan-baku.html" class='sidebar-link'>
+                        <a href="daftar_nilai.html".html" class='sidebar-link'>
                             <img src="images/score-icon.png"> 
                             <span>Nilai</span>
                         </a>
@@ -84,47 +87,84 @@
             </ul>
         </div>
         </div>
-    <!-- Main -->
-    <div id="main">
-        
-        <!-- Nav tabs -->
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
-    </li>
-  </ul>
-  
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
-  </div>
-        
-    </div>
+
+        <!-- Main -->
+        <div id="main">
+            <div class="demo">
+                <div data-tab="Peserta" class="card-list" style="height: 100vh;">
+                    <div class="main-content container-fluid mt-5">
+                        <div class="page-title">
+                            <div class="row">
+                        </div>
+                        <section class="section">
+                            <div class="card mt-3">
+                                <div class="card-body">
+                                    <div>
+                                        <h5>Daftar Peserta Front End Developer</h5>
+                                    </div>
+                                   <table class='table table-striped' id="table1">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">No</th>
+                                                <th class="text-center">Nama</th>
+                                                <th class="text-center">NIM</th>
+                                                <th class="text-center">Angkatan</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Amalia Kivansa</td>
+                                                <td>11180930000055</td>
+                                                <td>2018</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Yusril Rahman</td>
+                                                <td>11180930000059</td>
+                                                <td>2018</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Jesa Fahrezi</td>
+                                                <td>11180930000060</td>
+                                                <td>2018</td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                    
+                        </section>
+                    </div>
+                    
+                            </div>
+                </div>
+               
+            </div>
+        </div>
 
 
 
 
+    
     <script src="libraries/jquery/jquery.js"></script>
     <script src="libraries/bootstrap/js/bootstrap.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/feather-icons/feather.min.js"></script>
     <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/vendors/chartjs/Chart.min.js"></script>
     <script src="assets/vendors/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/dashboard.js"></script>
-   
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="assets/vendors/tabs/docs/jquery.cardtabs.js"></script>
+    <script>
+        $('.demo').cardTabs();
+    </script>
+    
+    
 </body>
 </html>
